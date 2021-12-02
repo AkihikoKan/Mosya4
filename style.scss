@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@use "commonScss/topLogo";
+@use "commonScss/topNav";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}    
+
+body {
+  color: #666;
+  background-color: #e5e5e5;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+#wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  //padding: 0 20px;
+}
