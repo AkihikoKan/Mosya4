@@ -54,6 +54,10 @@
   background-color: #E6EBFA;
 }
 
+#mainImg .mainImg01 {
+  height: 360px;
+}
+
 *,
 *::before,
 *::after {
