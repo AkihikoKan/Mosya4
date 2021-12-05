@@ -1,0 +1,17 @@
+
+.main{
+  &-left{
+    &-table{
+      .table01{
+        width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 15% 85%;
+        .item-box{
+          padding: 10px 0;
+          border-bottom: 1px solid #ccc;
+        }
+      }
+    }
+  }
+}

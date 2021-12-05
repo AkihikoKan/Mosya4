@@ -58,6 +58,32 @@
   height: 360px;
 }
 
+.main-left-title {
+  background-color: #0F3ADA;
+  padding: 10px 0;
+  border-radius: 3px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.main-left-title h2 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0 20px;
+  border-left: 3px solid #879DEE;
+}
+
+.main-left-table .table01 {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.main-left-table .table01 .item-box {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
 *,
 *::before,
 *::after {
