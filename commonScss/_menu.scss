@@ -1,0 +1,50 @@
+
+.main{
+  &-right{
+    .menu01{
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      &-title{
+        font-size: 15px;
+        font-weight: bold;
+        border: 1px solid #ccc;
+        border-top: 4px solid #0E36CA;
+        margin: 10px 10px 0;
+        padding: 25px 10px;
+      }
+      &-info{
+        margin: 0 10px 15px;
+        ul{
+          li{
+            font-size: 15px;
+            border-bottom: 1px solid #ccc;
+            padding: 15px 10px;
+          }
+        }
+      }
+    }
+    .menu02{
+      //border: 1px solid #ccc;
+      margin-bottom: 20px;
+      &-title{
+        font-size: 15px;
+        font-weight: bold;
+        border: 1px solid #ccc;
+        border-top: 4px solid #0E36CA;
+        //margin: 10px 10px 0;
+        padding: 25px 10px;
+      }
+      &-info{
+        //margin: 0 10px 15px;
+        ul{
+          li{
+            font-size: 15px;
+            border-bottom: 1px solid #ccc;
+            padding: 15px 10px;
+          }
+        }
+      }
+    }
+  }
+
+}

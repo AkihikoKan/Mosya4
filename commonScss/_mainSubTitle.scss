@@ -1,17 +1,19 @@
 
 .main{
   &-left{
-    &-title{
-      background-color: #0F3ADA;
+    &-subtitle{
+      background-color: #f0f0f0;
       padding: 10px 0;
       border-radius: 3px;      
       margin-bottom: 20px;
-      h2{
-        color: #fff;
+      h3{
+        color: #000;
         font-size: 18px;
         line-height: 27px;
         margin: 0 20px;
-        border-left: 3px solid #879DEE;
+        span{
+          color: #ff0000;
+        }
       }
     }
   }

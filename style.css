@@ -54,6 +54,9 @@
   background-color: #E6EBFA;
 }
 
+#mainImg {
+  margin-bottom: 40px;
+}
 #mainImg .mainImg01 {
   height: 360px;
 }
@@ -62,7 +65,6 @@
   background-color: #0F3ADA;
   padding: 10px 0;
   border-radius: 3px;
-  margin-top: 40px;
   margin-bottom: 20px;
 }
 .main-left-title h2 {
@@ -77,11 +79,113 @@
   width: 95%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 120px auto;
 }
 .main-left-table .table01 .item-box {
+  font-size: 15pxs;
   padding: 10px 0;
   border-bottom: 1px solid #ccc;
+}
+.main-left-table .table01 .item-box .txt {
+  padding-left: 10px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.main-left {
+  width: 73%;
+  margin-left: 35px;
+  margin-right: 23px;
+}
+.main-left .log {
+  text-align: right;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+.main-right {
+  width: 27%;
+  margin-left: 23px;
+  margin-right: 35px;
+}
+
+.main-right .menu01 {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.main-right .menu01-title {
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-top: 4px solid #0E36CA;
+  margin: 10px 10px 0;
+  padding: 25px 10px;
+}
+.main-right .menu01-info {
+  margin: 0 10px 15px;
+}
+.main-right .menu01-info ul li {
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 10px;
+}
+.main-right .menu02 {
+  margin-bottom: 20px;
+}
+.main-right .menu02-title {
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-top: 4px solid #0E36CA;
+  padding: 25px 10px;
+}
+.main-right .menu02-info ul li {
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 10px;
+}
+
+.main-left-subtitle {
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.main-left-subtitle h3 {
+  color: #000;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0 20px;
+}
+.main-left-subtitle h3 span {
+  color: #ff0000;
+}
+
+.main-left-text .text01 {
+  margin: 15px 20px;
+}
+.main-left-text .text01 p {
+  font-size: 15px;
+  line-height: 30px;
+}
+.main-left-text .text02 {
+  margin: 0 20px;
+}
+.main-left-text .text02 p {
+  color: #ff0000;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.main-left-text .text03 {
+  margin: 0 20px 20px;
+}
+.main-left-text .text03 p {
+  font-size: 15px;
+  line-height: 30px;
 }
 
 *,
