@@ -97,7 +97,7 @@
   width: 100%;
 }
 .main-left {
-  width: 73%;
+  width: 69%;
   margin-left: 35px;
   margin-right: 23px;
 }
@@ -107,7 +107,7 @@
   margin-bottom: 75px;
 }
 .main-right {
-  width: 27%;
+  width: 31%;
   margin-left: 23px;
   margin-right: 35px;
 }
@@ -186,6 +186,9 @@
 .main-left-text .text03 p {
   font-size: 15px;
   line-height: 30px;
+}
+.main-left-text img {
+  width: 600px;
 }
 
 *,
